@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - page_test",
+            "request": "launch",
+            "mainClass": "page_test",
+            "projectName": "os_experiment"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Properity_Thread",
+            "request": "launch",
+            "mainClass": "Properity_Thread",
+            "projectName": "os_experiment"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ProducterConsumer",
+            "request": "launch",
+            "mainClass": "ProducterConsumer",
+            "projectName": "os_experiment"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - producter_consumer",
+            "request": "launch",
+            "mainClass": "producter_consumer",
+            "projectName": "os_experiment"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Room",
+            "request": "launch",
+            "mainClass": "temp_1.Room",
+            "projectName": "os_experiment"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - 多线程10生产者消费者",
+            "request": "launch",
+            "mainClass": "多线程10生产者消费者",
+            "projectName": "os_experiment"
+        }
+    ]
+}
