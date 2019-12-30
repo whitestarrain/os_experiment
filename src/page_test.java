@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 class PageTable {
-    class pageTableItem {
+    class pageTableItem {//页表条目类
         public int pageNumber;
         public int flag;
         public int BlockNumber;
@@ -48,8 +48,8 @@ class PageTable {
     }
 }
 
-class Instructions {
-    public class Instruction {
+class Instructions {//指令集类
+    public class Instruction {//指令类
         public Instruction(String operation, int pageNumber, int Offset) {
             this.operation = operation;
             this.pageNumber = pageNumber;
@@ -104,7 +104,7 @@ class Instructions {
     }
 }
 
-class FIFOScheduler {
+class FIFOScheduler {//先进先出调度类
     PageTable pagetableitems;
     Instructions i;
     private ArrayList<Integer> fifoqueue;

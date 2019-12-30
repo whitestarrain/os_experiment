@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - File_System",
+            "request": "launch",
+            "mainClass": "File_System",
+            "projectName": "os_experiment"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - page_test",
             "request": "launch",
             "mainClass": "page_test",
