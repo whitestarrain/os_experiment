@@ -228,7 +228,7 @@ class FileSystem {
             if (tempString.equals("logout")) {
                 if (runNumber != 0) {
                     runNumber = 0;
-                    System.out.println("关闭打开的文件\n" + runfiles.getallfiles());
+                    System.out.println("关闭打开的文q件\n" + runfiles.getallfiles());
                     runfiles = new AFD();
                 }
                 // TODO
