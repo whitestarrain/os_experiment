@@ -205,7 +205,7 @@ class FileSystem {
     public FileSystem() {
         uf = new MFD();
         runfiles = new AFD();
-        testInit();// TODO 测试用，添加
+        testInit();// 
     }
 
     public void singleRun() {
@@ -231,7 +231,6 @@ class FileSystem {
                     System.out.println("关闭打开的文q件\n" + runfiles.getallfiles());
                     runfiles = new AFD();
                 }
-                // TODO
                 break;
             }
             switch (tempString) {
@@ -331,7 +330,7 @@ class FileSystem {
                 if ((tempfile = uf.getfilebyname(nowusername, filename)) != null && tempfile.getread()) {
                     System.out.println("成功读文件");
                 } else {
-                    System.out.println("文件不存在");
+                    System.out.println("文件不存在或不可读");
                 }
                 break;
             case "write":
@@ -341,7 +340,7 @@ class FileSystem {
                 if ((tempfile = uf.getfilebyname(nowusername, filename)) != null && tempfile.getwrite()) {
                     System.out.println("成功写文件");
                 } else {
-                    System.out.println("文件不存在");
+                    System.out.println("文件不存在或不可写");
                 }
                 break;
             case "dir":

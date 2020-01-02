@@ -27,7 +27,7 @@ class testProcess {
     }
 }
 
-public class Properity_Process {
+public class Priority_Process {
     public static void out(testProcess... tarr) {
         System.out.println("NAME    NEEDTIME    PRIORITY    STATE");
         for (testProcess temp : tarr) {
